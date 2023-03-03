@@ -1,0 +1,23 @@
+{
+  "enquiry": [
+    {
+      "firstName": "adada",
+      "lastName": "adas",
+      "email": "asdasd",
+      "mobile": "asdad",
+      "weight": 12,
+      "height": 21,
+      "bmi": 0.0045351473922902496,
+      "bmiResult": "Underweight",
+      "gender": "Female",
+      "requireTrainer": "Yes",
+      "package": "Monthly",
+      "important": [
+        "Energy and endurance"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-03-06T18:30:00.000Z",
+      "id": 1
+    }
+  ]
+}
