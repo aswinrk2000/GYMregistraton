@@ -58,7 +58,7 @@ ngOnInit():void{
   });
 
 this.activatedRoute.params.subscribe(val=>{
-  this.userIdToUpdate = val['id']
+  this.userIdToUpdate = val['id'];
   this.api.getRegisteredUserId(this.userIdToUpdate).subscribe(res=>{
 this.isUpdateActive= true;
 this.fillFormToUpdate(res)
@@ -69,7 +69,7 @@ this.fillFormToUpdate(res)
 submit(){
   this.api.postRegistration(this.registerForm.value).subscribe(res=>{
 this.toastService.success({detail:"success", summary: "enquiry Added", duration:5000});
-this.registerForm.reset()
+this.registerForm.reset();
   })
 }
 

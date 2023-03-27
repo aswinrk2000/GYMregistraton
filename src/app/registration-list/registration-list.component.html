@@ -1,7 +1,17 @@
-<mat-form-field>
+<div class="d-flex justify-content-between">
+  <button routerLink="/register" mat-raised-button color="accent"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+  Back 
+  to
+  Registration
+  </button>
+  <mat-form-field appearance="outline">
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
   </mat-form-field>
+</div>
+
+
+
   
   <div class="mat-elevation-z8">
     <table mat-table [dataSource]="dataSource" matSort>
